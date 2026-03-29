@@ -1,4 +1,13 @@
 GenericModule.Meta.AppConfigId=TheOhioAnnexAtlas
+GenericModule.Meta.DisplayName=Atlas
+GenericModule.Meta.DisplayImageSource=steam:834910
+GenericModule.Meta.ConfigManifest=atlasconfig.json
+GenericModule.Meta.ConfigRoot=atlas.kvp
+GenericModule.Meta.Author=Chad Walls
+GenericModule.Meta.Description=ATLAS dedicated server template
+GenericModule.Meta.EndpointURIFormat=steam://connect/{ip}/{GenericModule.App.ApplicationPort1}
+GenericModule.Meta.OS=1
+GenericModule.Meta.URL=
 
 GenericModule.App.AdminMethod=AMP_GSIO
 GenericModule.App.ApplicationPort1=27015
@@ -26,13 +35,3 @@ GenericModule.Console.ThrowawayMessageRegex=
 GenericModule.Console.UserChatRegex=
 GenericModule.Console.UserJoinRegex=
 GenericModule.Console.UserLeaveRegex=
-
-GenericModule.Meta.Author=Chad Walls
-GenericModule.Meta.ConfigManifest=atlasconfig.json
-GenericModule.Meta.ConfigRoot=atlas.kvp
-GenericModule.Meta.Description=ATLAS dedicated server template
-GenericModule.Meta.DisplayImageSource=steam:834910
-GenericModule.Meta.DisplayName=Atlas
-GenericModule.Meta.EndpointURIFormat=steam://connect/{ip}/{GenericModule.App.ApplicationPort1}
-GenericModule.Meta.OS=1
-GenericModule.Meta.URL=
