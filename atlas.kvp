@@ -1,14 +1,14 @@
-Meta.DisplayName=OmegaTron75 Atlas
+Meta.DisplayName=The Ohio Annex Atlas
 Meta.Description=ATLAS dedicated server template
 Meta.OS=Windows
-Meta.Author=OmegaTron75
+Meta.Author=Chad Walls / OmegaTron75
 Meta.URL=
 Meta.DisplayImageSource=steam:834910
-Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
+Meta.EndpointURIFormat=steam://connect/{ip}:{App.Ports.$SteamQueryPort}
 Meta.ConfigManifest=atlasconfig.json
 Meta.ConfigRoot=atlas.kvp
 Meta.ConfigVersion=1
-Meta.AppConfigId=TheOhioAnnexAtlas
+Meta.AppConfigId=atlas
 
 App.DisplayName=OmegaTron75 Atlas
 App.RootDir=./atlas/
