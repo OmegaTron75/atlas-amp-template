@@ -1,5 +1,5 @@
 GenericModule.Meta.AppConfigId=TheOhioAnnexAtlas
-GenericModule.Meta.DisplayName=Atlas
+GenericModule.Meta.DisplayName=OmegaTron75 Atlas
 GenericModule.Meta.DisplayImageSource=steam:834910
 GenericModule.Meta.ConfigManifest=atlasconfig.json
 GenericModule.Meta.ConfigRoot=atlas.kvp
@@ -16,7 +16,7 @@ GenericModule.App.BaseDirectory=./
 GenericModule.App.CommandLineArgs={{MapName}}?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerName="{{ServerName}}"?SessionName={{SessionName}}?MaxPlayers={{MaxPlayers}}?ServerPassword={{ServerPassword}}?ServerAdminPassword={{ServerAdminPassword}}?QueryPort={{QueryPort}}?Port={{Port}} -log -server -NoBattlEye
 GenericModule.App.CommandLineParameterDelimiter=
 GenericModule.App.CommandLineParameterFormat=?{0}={1}
-GenericModule.App.DisplayName=Atlas
+GenericModule.App.DisplayName=OmegaTron75 Atlas
 GenericModule.App.EnvironmentVariables={"LD_LIBRARY_PATH":"./linux64:%LD_LIBRARY_PATH%","SteamAppId":"1006030"}
 GenericModule.App.ExecutableLinux=
 GenericModule.App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
