@@ -1,8 +1,7 @@
 Meta.DisplayName=The Ohio Annex Atlas
 Meta.Description=ATLAS dedicated server template
 Meta.OS=Windows
-Meta.Author=Chad Walls / OmegaTron75
-Meta.URL=
+Meta.Author=OmegaTron75
 Meta.DisplayImageSource=steam:834910
 Meta.EndpointURIFormat=steam://connect/{ip}:{App.Ports.$SteamQueryPort}
 Meta.ConfigManifest=atlasconfig.json
