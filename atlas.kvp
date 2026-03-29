@@ -1,37 +1,30 @@
-GenericModule.Meta.AppConfigId=TheOhioAnnexAtlas
-GenericModule.Meta.DisplayName=OmegaTron75 Atlas
-GenericModule.Meta.DisplayImageSource=steam:834910
-GenericModule.Meta.ConfigManifest=atlasconfig.json
-GenericModule.Meta.ConfigRoot=atlas.kvp
-GenericModule.Meta.Author=Chad Walls
-GenericModule.Meta.Description=ATLAS dedicated server template
-GenericModule.Meta.EndpointURIFormat=steam://connect/{ip}/{GenericModule.App.ApplicationPort1}
-GenericModule.Meta.OS=1
-GenericModule.Meta.URL=
+Meta.DisplayName=OmegaTron75 Atlas
+Meta.Description=ATLAS dedicated server template
+Meta.OS=Windows
+Meta.Author=OmegaTron75
+Meta.URL=
+Meta.DisplayImageSource=steam:834910
+Meta.EndpointURIFormat=steam://connect/{ip}:{App.Ports.$SteamQueryPort}
+Meta.ConfigManifest=atlasconfig.json
+Meta.ConfigRoot=atlas.kvp
+Meta.ConfigVersion=1
+Meta.AppConfigId=TheOhioAnnexAtlas
 
-GenericModule.App.AdminMethod=AMP_GSIO
-GenericModule.App.ApplicationPort1=27015
-GenericModule.App.ApplicationReadyMode=Immediate
-GenericModule.App.BaseDirectory=./
-GenericModule.App.CommandLineArgs={{MapName}}?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerName="{{ServerName}}"?SessionName={{SessionName}}?MaxPlayers={{MaxPlayers}}?ServerPassword={{ServerPassword}}?ServerAdminPassword={{ServerAdminPassword}}?QueryPort={{QueryPort}}?Port={{Port}} -log -server -NoBattlEye
-GenericModule.App.CommandLineParameterDelimiter=
-GenericModule.App.CommandLineParameterFormat=?{0}={1}
-GenericModule.App.DisplayName=OmegaTron75 Atlas
-GenericModule.App.EnvironmentVariables={"LD_LIBRARY_PATH":"./linux64:%LD_LIBRARY_PATH%","SteamAppId":"1006030"}
-GenericModule.App.ExecutableLinux=
-GenericModule.App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
-GenericModule.App.ExitMethod=String
-GenericModule.App.ExitString=stop
-GenericModule.App.HasReadableConsole=true
-GenericModule.App.HasWritableConsole=true
-GenericModule.App.RapidStartup=false
-GenericModule.App.RootDir=./
-GenericModule.App.UpdateSource=SteamCMD
-GenericModule.App.UpdateSources=[{"UpdateStageName":"SteamCMD Download","UpdateSourcePlatform":"All","UpdateSource":"SteamCMD","UpdateSourceData":"1006030"}]
-GenericModule.App.WorkingDir=1006030
-
-GenericModule.Console.AppReadyRegex=
-GenericModule.Console.ThrowawayMessageRegex=
-GenericModule.Console.UserChatRegex=
-GenericModule.Console.UserJoinRegex=
-GenericModule.Console.UserLeaveRegex=
+App.DisplayName=OmegaTron75 Atlas
+App.RootDir=./atlas/
+App.BaseDirectory=./atlas/1006030/
+App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
+App.ExecutableLinux=
+App.WorkingDir=1006030
+App.CommandLineArgs={{MapName}}?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerName="{{ServerName}}"?SessionName={{SessionName}}?MaxPlayers={{MaxPlayers}}?ServerPassword={{ServerPassword}}?ServerAdminPassword={{ServerAdminPassword}}?QueryPort={{SteamQueryPort}}?Port={{GamePort}} -log -server -NoBattlEye
+App.CommandLineParameterFormat=?{0}={1}
+App.CommandLineParameterDelimiter=
+App.ExitMethod=OS_CLOSE
+App.ExitString=stop
+App.HasWriteableConsole=True
+App.HasReadableConsole=True
+App.AdminMethod=STDIO
+App.UpdateSources=[{"UpdateStageName":"SteamCMD Download","UpdateSourcePlatform":"All","UpdateSource":"SteamCMD","UpdateSourceData":"1006030"}]
+App.SteamUpdateAnonymousLogin=True
+App.RapidStartup=False
+App.Ports={"GamePort":{"Protocol":"UDP","Port":7777},"SteamQueryPort":{"Protocol":"UDP","Port":27015}}
