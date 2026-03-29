@@ -1,7 +1,7 @@
 {
-  "name": "Local Atlas Templates",
-  "author": "Chad Walls",
-  "description": "Local custom templates for AMP",
+  "name": "TheOhioAnnexAtlas",
+  "author": "Chad Walls / OmegaTron75",
+  "description": "ATLAS dedicated server template for The Ohio Annex",
   "configs": [
     {
       "id": "TheOhioAnnexAtlas",
