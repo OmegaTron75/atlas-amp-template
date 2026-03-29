@@ -1,26 +1,38 @@
-GenericModule.Meta.AppConfigId=Atlas
+GenericModule.Meta.AppConfigId=TheOhioAnnexAtlas
 
 GenericModule.App.AdminMethod=AMP_GSIO
-GenericModule.App.ApplicationPort1=7777
+GenericModule.App.ApplicationPort1=27015
 GenericModule.App.ApplicationReadyMode=Immediate
 GenericModule.App.BaseDirectory=./
 GenericModule.App.CommandLineArgs={{MapName}}?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerName="{{ServerName}}"?SessionName={{SessionName}}?MaxPlayers={{MaxPlayers}}?ServerPassword={{ServerPassword}}?ServerAdminPassword={{ServerAdminPassword}}?QueryPort={{QueryPort}}?Port={{Port}} -log -server -NoBattlEye
-GenericModule.App.CommandLineParameterDelimiter=?
-GenericModule.App.CommandLineParameterFormat={0}={1}
+GenericModule.App.CommandLineParameterDelimiter=
+GenericModule.App.CommandLineParameterFormat=?{0}={1}
 GenericModule.App.DisplayName=Atlas
-GenericModule.App.EnvironmentVariables={"SteamAppId":"1006030"}
+GenericModule.App.EnvironmentVariables={"LD_LIBRARY_PATH":"./linux64:%LD_LIBRARY_PATH%","SteamAppId":"1006030"}
+GenericModule.App.ExecutableLinux=
 GenericModule.App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
 GenericModule.App.ExitMethod=String
 GenericModule.App.ExitString=stop
 GenericModule.App.HasReadableConsole=true
 GenericModule.App.HasWritableConsole=true
+GenericModule.App.RapidStartup=false
+GenericModule.App.RootDir=./
 GenericModule.App.UpdateSource=SteamCMD
 GenericModule.App.UpdateSources=[{"UpdateStageName":"SteamCMD Download","UpdateSourcePlatform":"All","UpdateSource":"SteamCMD","UpdateSourceData":"1006030"}]
 GenericModule.App.WorkingDir=1006030
 
+GenericModule.Console.AppReadyRegex=
+GenericModule.Console.ThrowawayMessageRegex=
+GenericModule.Console.UserChatRegex=
+GenericModule.Console.UserJoinRegex=
+GenericModule.Console.UserLeaveRegex=
+
 GenericModule.Meta.Author=Chad Walls
 GenericModule.Meta.ConfigManifest=atlasconfig.json
-GenericModule.Meta.ConfigRoot=atlasconfig.json
-GenericModule.Meta.Description=ATLAS dedicated server
+GenericModule.Meta.ConfigRoot=atlas.kvp
+GenericModule.Meta.Description=ATLAS dedicated server template
+GenericModule.Meta.DisplayImageSource=steam:834910
 GenericModule.Meta.DisplayName=Atlas
+GenericModule.Meta.EndpointURIFormat=steam://connect/{ip}/{GenericModule.App.ApplicationPort1}
 GenericModule.Meta.OS=1
+GenericModule.Meta.URL=
