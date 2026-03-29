@@ -1,4 +1,4 @@
-GenericModule.Meta.ConfigId=TheOhioAnnexAtlas
+GenericModule.Meta.AppConfigId=TheOhioAnnexAtlas
 GenericModule.Meta.DisplayName=OmegaTron75 Atlas
 GenericModule.Meta.DisplayImageSource=steam:834910
 GenericModule.Meta.ConfigManifest=atlasconfig.json
