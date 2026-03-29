@@ -1,10 +1,10 @@
 {
   "name": "TheOhioAnnexAtlas",
-  "author": "Chad Walls / OmegaTron75",
-  "description": "ATLAS dedicated server template for The Ohio Annex",
+  "author": "OmegaTron75",
+  "description": "ATLAS dedicated server template",
   "configs": [
     {
-      "id": "TheOhioAnnexAtlas",
+      "id": "theohioannexatlas",
       "kvp": "atlas.kvp",
       "manifest": "atlasconfig.json"
     }
