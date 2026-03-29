@@ -1,14 +1,3 @@
-Meta.DisplayName=The Ohio Annex Atlas
-Meta.Description=ATLAS dedicated server template
-Meta.OS=Windows
-Meta.Author=Chad Walls / OmegaTron75
-Meta.DisplayImageSource=steam:834910
-Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.ConfigManifest=atlasconfig.json
-Meta.ConfigRoot=atlas.kvp
-Meta.ConfigVersion=1
-Meta.AppConfigId=atlas
-
 App.DisplayName=The Ohio Annex Atlas
 App.RootDir=./atlas/
 App.BaseDirectory=./atlas/1006030/
