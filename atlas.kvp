@@ -7,7 +7,7 @@ GenericModule.Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Por
 GenericModule.Meta.ConfigManifest=atlasconfig.json
 GenericModule.Meta.ConfigRoot=atlas.kvp
 GenericModule.Meta.ConfigVersion=1
-GenericModule.Meta.AppConfigId=atlas
+GenericModule.Meta.AppConfigId=theohioannexatlas
 
 App.DisplayName=The Ohio Annex Atlas
 App.RootDir=./atlas/
