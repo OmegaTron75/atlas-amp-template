@@ -1,0 +1,12 @@
+{
+  "name": "Local Atlas Templates",
+  "author": "Chad Walls",
+  "description": "Local custom templates for AMP",
+  "configs": [
+    {
+      "id": "TheOhioAnnexAtlas",
+      "kvp": "atlas.kvp",
+      "manifest": "atlasconfig.json"
+    }
+  ]
+}
