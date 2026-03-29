@@ -1,3 +1,14 @@
+GenericModule.Meta.DisplayName=The Ohio Annex Atlas
+GenericModule.Meta.Description=ATLAS dedicated server template
+GenericModule.Meta.OS=Windows
+GenericModule.Meta.Author=Chad Walls / OmegaTron75
+GenericModule.Meta.DisplayImageSource=steam:834910
+GenericModule.Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
+GenericModule.Meta.ConfigManifest=atlasconfig.json
+GenericModule.Meta.ConfigRoot=atlas.kvp
+GenericModule.Meta.ConfigVersion=1
+GenericModule.Meta.AppConfigId=atlas
+
 App.DisplayName=The Ohio Annex Atlas
 App.RootDir=./atlas/
 App.BaseDirectory=./atlas/1006030/
