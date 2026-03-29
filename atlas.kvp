@@ -9,7 +9,7 @@ Meta.ConfigRoot=atlas.kvp
 Meta.ConfigVersion=1
 Meta.AppConfigId=atlas
 
-App.DisplayName=OmegaTron75 Atlas
+App.DisplayName=The Ohio Annex Atlas
 App.RootDir=./atlas/
 App.BaseDirectory=./atlas/1006030/
 App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
