@@ -12,7 +12,7 @@ Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
 Meta.AppConfigId=0cf4dc4a-a76f-48db-bb88-a3a923e8cdf1
 Meta.OS=1
-Meta.ConfigManifest=atlasconfig.json
+Meta.ConfigManifest=
 Meta.MetaConfigManifest=atlasmetaconfig.json
 Meta.ConfigRoot=atlas.kvp
 Meta.DisplayImageSource=steam:1006030
@@ -22,11 +22,11 @@ App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=ATLAS
 
-App.RootDir={{InstallDir}}/
-App.BaseDirectory={{InstallDir}}/
-App.WorkingDir={{InstallDir}}
+App.RootDir=D:\AMPStable\ATLAS01/
+App.BaseDirectory=D:\AMPStable\ATLAS01/
+App.WorkingDir=D:\AMPStable\ATLAS01
 
-App.ExecutableWin={{InstallDir}}\ShooterGame\Binaries\Win64\ShooterGameServer.exe
+App.ExecutableWin=D:\AMPStable\ATLAS01\ShooterGame\Binaries\Win64\ShooterGameServer.exe
 App.ExecutableLinux=
 
 App.CommandLineArgs=Ocean?listen?ServerX=0?ServerY=0?AltSaveDirectoryName=AtlasTest -log -server -NoBattlEye
@@ -77,7 +77,7 @@ App.MonitorChildProcessWaitMs=1000
 App.MonitorChildProcessName=
 App.Compatibility=None
 
-App.SteamWorkshopDownloadLocation={{InstallDir}}\ShooterGame\Content\Mods
+App.SteamWorkshopDownloadLocation=D:\AMPStable\ATLAS01\ShooterGame\Content\Mods
 
 Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
