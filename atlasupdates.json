@@ -1,13 +1,14 @@
 [
-    {
-        "UpdateStageName": "SteamCMD Install",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "1006030",
-        "UpdateSourceArgs": "1006030",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    }
+  {
+    "UpdateStageName": "SteamCMD Install",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "1006030",
+    "UpdateSourceArgs": "1006030",
+    "SteamLoginAnonymous": false,
+    "UnzipUpdateSource": false,
+    "OverwriteExistingFiles": false,
+    "DeleteAfterExtract": true,
+    "OneShot": false
+  }
 ]
