@@ -1,0 +1,23 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": "57561",
+        "Name": "",
+        "Description": "Port used for main game traffic",
+        "Ref": ""
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "57562",
+        "Name": "",
+        "Description": "Port used for main game traffic",
+        "Ref": ""
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "27000",
+        "Name": "",
+        "Description": "Port used for main game traffic",
+        "Ref": ""
+    }
+]
