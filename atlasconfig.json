@@ -1,6 +1,11 @@
 {
-  "DisplayName": "Install Directory",
-  "FieldName": "InstallDir",
-  "DefaultValue": "D:\\AMPStable\\ATLAS01",
-  "Description": "Path to ATLAS server files"
+  "Settings": [
+    {
+      "DisplayName": "Install Directory",
+      "FieldName": "InstallDir",
+      "DefaultValue": "D:\\AMPStable\\ATLAS01",
+      "Description": "Path to ATLAS server files",
+      "InputType": "Text"
+    }
+  ]
 }
